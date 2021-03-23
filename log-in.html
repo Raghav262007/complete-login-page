@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit = no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="generator" content="Gatsby 2.23.12" />
+    <link rel="stylesheet" href="stylesheet2.css" />
+    <title>Log-In</title>
+  </head>
+  <body>
+    <div>
+      <img
+        class="side-banner"
+        src="AI robot side-banner 2.jpg"
+        alt="Robotonics"
+      />
+    </div>
+    <div class="white-box">
+      <h1 class="heading">Welcome Back :)</h1>
+      <p class="intro">
+        To keep connected with us please login with your personal information by
+        your email address and password 🔔
+      </p>
+
+      <form action="log-in.html" method="post">
+        <div class="container">
+          <img class="emailIcon" src="email icon.png" />
+          <input
+            id="email"
+            type="text"
+            placeholder="Email Address"
+            name="email"
+            required
+          />
+          <br />
+          <br />
+
+          <img class="pass-icon" src="password icon 2.jpg" />
+          <input
+            id="password"
+            type="text"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+          <br /><br /><br />
+          <label class="remember">
+            <input type="checkbox" checked="checked" name="remember" /> Remember
+            me
+          </label>
+          <span class="psw">
+            <a class="spanLink" href="#">Forgot Password?</a></span
+          >
+
+          <button onclick="checkInfo()" type="button" class="logbtn">
+            Login Now
+          </button>
+
+          <span class="createAcc"
+            ><a class="spanLink" href="./Sign-up.html">Create Account</a></span
+          >
+
+          <span class="orLine spanLink"
+            >----------------------------------------or----------------------------------------</span
+          >
+
+          <button type="button" class="fb-btn button">
+            <img class="fb-icon" src="facebook icon.jpg" />
+            LOGIN WITH FACEBOOK
+          </button>
+
+          <button type="button" class="t-btn button">
+            <img class="tw-icon" src="Twitter-Emblem.png" />
+            LOGIN WITH TWITTER
+          </button>
+
+          <button type="button" class="g-btn button">
+            <img class="g-icon" src="google icon.jpg" />
+            LOGIN WITH GOOGLE
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <script src="script2.js"></script>
+  </body>
+</html>

@@ -1,0 +1,174 @@
+html {
+  margin: 0px;
+}
+
+body {
+  background-color: black /*#3a285c*/;
+}
+
+.side-banner {
+  margin: 0px;
+  width: 720px;
+  height: 690px;
+}
+
+.Logo {
+  position: absolute;
+  top: 20px;
+  left: 420px;
+}
+
+.white-box {
+  background-color: mintcream;
+  width: 605px;
+  height: 690px;
+  position: absolute;
+  margin: 0px;
+  padding: 5px;
+  top: 0px;
+  left: 730px;
+}
+h1 {
+  margin-left: 10px;
+  font-size: 50px;
+  padding: 0px;
+}
+
+.introPara {
+  margin-left: 10px;
+  position: absolute;
+  top: 80px;
+}
+
+.container {
+  margin: 10px;
+}
+
+/* Full-width inputs */
+input[type="text"] {
+  width: 80%;
+  padding: 20px;
+  display: inline-block;
+  border: 1px solid mintcream;
+  box-sizing: border-box;
+  margin-left: 80px;
+}
+
+input[type="password"] {
+  width: 80%;
+  padding: 20px;
+  display: inline-block;
+  border: 1px solid mintcream;
+  box-sizing: border-box;
+  margin-left: 80px;
+}
+
+.emailIcon {
+  width: 55px;
+  position: absolute;
+  top: 170px;
+  left: 10px;
+  margin: 5px;
+}
+
+.pass-icon {
+  width: 35px;
+  position: absolute;
+  top: 245px;
+  left: 20px;
+  margin: 5px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: /*#4caf50*/ rgb(38, 116, 219);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.logbtn {
+  width: 50%;
+  position: absolute;
+  top: 370px;
+  left: 140px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.orLine {
+  position: absolute;
+  top: 440px;
+  left: 80px;
+}
+
+.button {
+  border-radius: 10px;
+  width: 70%;
+  font-size: 20px;
+  height: 8%;
+}
+
+.fb-btn {
+  position: absolute;
+  top: 460px;
+  left: 90px;
+  background-color: #3d5998;
+}
+
+.fb-icon {
+  width: 55px;
+  height: 50px;
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  border-radius: 10px;
+}
+
+.tw-icon {
+  width: 55px;
+  height: 50px;
+  position: absolute;
+  top: 1px;
+  left: 10px;
+  border-radius: 10px;
+  margin: 0px;
+}
+
+.t-btn {
+  position: absolute;
+  top: 520px;
+  left: 90px;
+  background-color: #00a2f3;
+}
+
+.g-icon {
+  width: 45px;
+  height: 50px;
+  position: absolute;
+  top: 1px;
+  left: 10px;
+  border-radius: 10px;
+  margin: 0px;
+}
+
+.g-btn {
+  position: absolute;
+  top: 580px;
+  left: 90px;
+  background-color: #6e1975;
+}
+
+.span {
+  position: absolute;
+  top: 660px;
+  left: 170px;
+  font-size: 20px;
+}

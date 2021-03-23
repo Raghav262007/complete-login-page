@@ -1,0 +1,82 @@
+.banner {
+  background-image: url("layout.jpg");
+}
+
+.banner {
+  margin: 0px;
+  padding: 0px;
+  height: 900px;
+
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  position: absolute;
+  top: 115px;
+  left: 770px;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: rgba(89, 174, 223, 0.938);
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  font-size: 20px;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.icon {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+
+.header {
+  position: absolute;
+  top: 20px;
+  left: 250px;
+  font-size: 30px;
+  color: rgb(28, 199, 28);
+}
+
+.para {
+  position: absolute;
+  top: 220px;
+  left: 60px;
+  font-size: 20px;
+  margin-right: 620px;
+}
+
+.para2 {
+  position: absolute;
+  top: 430px;
+  left: 15px;
+  font-size: 20px;
+  margin-right: 780px;
+}
+
+#more {
+  display: none;
+}
+
+#myBtn {
+  background-color: /*#4caf50*/ rgb(38, 116, 219);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+}
